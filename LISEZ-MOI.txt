@@ -1,0 +1,35 @@
+PUREGLOW — VERSION 3 : BOUTIQUE MULTIPAGE ENRICHIE
+
+PAGES
+- index.html : accueil général, indépendant des univers homme/femme.
+- bain.html, pommade.html, maquillage.html, parfums.html : catégories avec recherche, marque, sous-catégorie, public, gamme et fourchette de prix.
+- accessoires.html : familles d'accessoires prévues ; aucune référence/stock inventé.
+- produit.html?id=ID : fiche détaillée dynamique pour chaque référence du catalogue.
+- marques.html : index des marques actuellement référencées.
+- favoris.html : favoris locaux au navigateur.
+- tendances.html, nouveautes.html, annonces.html : sélections et informations éditoriales.
+- a-la-demande.html : demandes de références et approvisionnement à vérifier.
+- conseils.html : conseils/guide de choix.
+- panier.html : panier local de démonstration.
+- livraison-retours.html et confidentialite.html : pages de politique à finaliser avant lancement.
+
+FONCTIONS DE DEMONSTRATION
+- Recherche et filtres de catalogue : marque, sous-catégorie, public, gamme et prix min/max.
+- Favoris stockés localement sur l'appareil.
+- Fiches produits dynamiques.
+- Panier de démonstration local.
+- Demandes de disponibilité, réapprovisionnement ou précommande sans paiement.
+
+LIMITES IMPORTANTES
+- Aucun backend, compte client, synchronisation multi-appareils, envoi WhatsApp réel, paiement, notification ou suivi de commande n'est connecté.
+- Les formulaires restent des démonstrations et ne transmettent pas de données.
+- Les photos produit restent des illustrations graphiques provisoires : remplacer par des photos autorisées et correspondant exactement aux références.
+- Les prix, vendeurs, authenticité, ingrédients, disponibilité et délais doivent être vérifiés avant publication.
+- Les avis ne doivent être activés qu'après achats vérifiés.
+- Les gammes sont un positionnement commercial indicatif, pas une garantie de qualité.
+- Les pages Livraison/Retours et Confidentialité sont des brouillons à faire valider avant lancement.
+
+OUVRIR / DEPLOYER
+Décompresser l'archive. Conserver toutes les pages et le dossier assets/. Ouvrir index.html pour l'aperçu.
+Pour Vercel : importer le dépôt GitHub, Framework Preset Other, build command vide, output directory ".".
+Remplacer le domaine provisoire du sitemap.xml par le domaine réel avant lancement.
